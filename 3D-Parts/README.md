@@ -12,6 +12,8 @@ The shoulder is extra reinforced to improve its flexural strength.  It has a 60m
 
 Where possible a hole is provided for drilling/tapping for a set screw.  The  hole to accept the encoder axle is tuned to the "squish" of my printer.  The axle is nominally 6mm diameter.  I bore out the holes in the arm sections with a 6mm drill to achieve a finger-tight friction fit.
 
+One issue that is not addressed in these arm section designs is cable management.  One option would be the placement of a central tubular passage in the dirst and second "thick" arm sections.  Another option applicable to all arm section designs is an additional built-up lug to hold a zip-tie.
+
 Section 1 of the arm has a hooked projection with a 1/4" hole.  This is to attach 2" diameter heavy washers using a 1/4" bolt and nut.  My setup uses about 296 grams to provide a fairly neutral weight on the pointer tip.
 
 I use six washers which have the following specifications.  OD: 2", ID: 0.812", thickness about 0.125"  Mine total to 0.825" thick.  I also use two 1" OD, ~0.25" ID, 0.062" thick washers, 1x bolt; 1.5" length, 1/4-20 and matching nut.
