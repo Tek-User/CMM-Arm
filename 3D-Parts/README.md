@@ -22,4 +22,4 @@ Ideally the thick washers would have 1/4" ID, but then you would need fewer wash
 
 McMaster also has oversize washers with OD: 2", ID: 1/4" Thickness 0.042-0.051.  You would need about 17-18 of these, or a little fewer due to smaller ID.  The cost these is $6.11 for 25 pieces and you would use about 18 or fewer of them.  This is likely the cheapest option because it gives the best ability to dial-in the required amount of counter weight.
 
-The top of the base is held by twelve #4 x 5/8" sheet metal screws.  I found that only 6 arond the perimeter stiull allowed the lid to flex a little with off-center torques to the encoder axle.  It is much more rigit with the added inner ring of 6 screws.
+The top of the base is held by twelve #4 x 5/8" sheet metal screws.  I found that only 6 around the perimeter still allowed the lid to flex a little with off-center torques to the encoder axle.  It is much more rigid with the added inner ring of 6 screws.
