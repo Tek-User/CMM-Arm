@@ -10,7 +10,7 @@ The shape is toroidal which allows the encoder to be serviced wouthout emptying 
 
 The shoulder is extra reinforced to improve its flexural strength.  It has a 60mm base to limit tipping of the whole arm on the encoder bearing's play.  
 
-Where possible a hole is provided for drilling/tapping for a set screw.  The  hole to accept the encoder axle is tuned to the "squish" of my printer.  The axle is nominally 6mm diameter.  I bore out the holes in the arm sections with a 6mm drill to achieve a finger-tight friction fit.
+Where possible a hole is provided for drilling/tapping for a set screw to hole the encoder axle securaly.  The  hole to accept the encoder axle is tuned to the "squish" of my printer.  The axle is nominally 6mm diameter.  I bore out the holes in the arm sections with a 6mm drill to achieve a finger-tight friction fit.
 
 One issue that is not addressed in these arm section designs is cable management.  One option would be the placement of a central tubular passage in the dirst and second "thick" arm sections.  Another option applicable to all arm section designs is an additional built-up lug to hold a zip-tie.
 
@@ -21,3 +21,5 @@ I use six washers which have the following specifications.  OD: 2", ID: 0.812", 
 Ideally the thick washers would have 1/4" ID, but then you would need fewer washers, maybe about a total of 0.75" thickness of washers.  Mcmaster-Carr has "Oversize Washers" like mine at $8.90 for 10 pieces.  They also have "Metric Oversize Washers" at OD: 540mm, ID:17mm, thickness: 2.7-3.3mm  At a cost of $13.16 for 25 pieces.
 
 McMaster also has oversize washers with OD: 2", ID: 1/4" Thickness 0.042-0.051.  You would need about 17-18 of these, or a little fewer due to smaller ID.  The cost these is $6.11 for 25 pieces and you would use about 18 or fewer of them.  This is likely the cheapest option because it gives the best ability to dial-in the required amount of counter weight.
+
+The top of the base is held by twelve #4 x 5/8" sheet metal screws.  I found that only 6 arond the perimeter stiull allowed the lid to flex a little with off-center torques to the encoder axle.  It is much more rigit with the added inner ring of 6 screws.
