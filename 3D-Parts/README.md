@@ -1,6 +1,6 @@
 This folder contains all the 3D printable parts. 
 
-The arm sections have 2 versions of each.  The "thick" version has a larger cross-section and is more rigid regarding bending and twisting.  However, on my printer it did not print FLAT.  The warp resulted in a strong, but unusable arm section.  If you can get it to print flat, then it should be the superiod design.
+The arm sections have 2 versions of each.  The "thick" version has a larger cross-section and is more rigid regarding bending and twisting.  However, on my printer it did not print FLAT.  The warp resulted in a strong, but unusable arm section.  If you can get it to print flat, then it should be the superior design.
 
 The third arm section, the "pointer" is in two versions as well.  The pretty, curved one is hard to hold, my fingers slip on the curves.  The second one is more like a pencil and easier to hold, though it is less rigid.  Both versions have a hole in the tip to accept a small wire brad nail.  I used a nail that is 0.069" in diameter (1.75mm).  It should have exactly 10mm protrusion beyond the plastic pointer tip for both versions.
 
