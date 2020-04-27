@@ -1,4 +1,7 @@
 # CMM-Arm
+
+<a href="https://github.com/Tek-User/Tektronix-GPIB-Download/blob/master/IMG_3033.JPG"><img src="https://github.com/Tek-User/Tektronix-GPIB-Download/blob/master/IMG_3033.JPG" width="500px"><br/></a>
+
 Development of an accurate, inexpensive DIY CMM arm
 
 This project uses, as much as possible, 3D printed parts.  However, the rigidity of plastic arm sections is sub-optimal, and hollow section aluminum arm segments with 3D printed connectors may be required for good accuracy.  Right now I have about +/-1mm accuracy if I am careful when I take the measurements and avoid twisting any arm segments, and keep the arm angles away from the extremes.
