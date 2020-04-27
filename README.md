@@ -1,6 +1,6 @@
 # CMM-Arm
 
-<a href="https://github.com/Tek-User/Tektronix-GPIB-Download/blob/master/IMG_3033.JPG"><img src="https://github.com/Tek-User/Tektronix-GPIB-Download/blob/master/IMG_3033.JPG" width="500px"><br/></a>
+<a href="https://github.com/Tek-User/CMM-Arm/blob/master/Photos/Extended-1.jpg"><img src="https://github.com/Tek-User/CMM-Arm/blob/master/Photos/Extended-1.jpg" width="500px"><br/></a>
 
 Development of an accurate, inexpensive DIY CMM arm
 
