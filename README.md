@@ -1,7 +1,9 @@
 # CMM-Arm
 Development of an accurate, inexpensive DIY CMM arm
 
-This project uses, as much as possible, 3D printed parts.  However, the rigidity of plastic arm sections is sub-optimal, and hollow section aluminum arm segments with 3D printed connectors may be required for good accuracy.
+This project uses, as much as possible, 3D printed parts.  However, the rigidity of plastic arm sections is sub-optimal, and hollow section aluminum arm segments with 3D printed connectors may be required for good accuracy.  Right now I have about +/-1mm accuracy if I am careful when I take the measurements and avoid twisting any arm segments, and keep the arm angles away from the extremes.
+
+This has the potential to be a really good machine to obtain reasonably accurate X-Y-Z measurements.  However, real-world issues impede this goal.  If we can solve the following issues, then we have a great device!  I am looking for any input to solve these issues.
 
 Issues: RIGID PARTS
 
@@ -19,4 +21,12 @@ Regarding accuracy: to have good accuracy, you need a good calibration!  There a
 
 3)  We do not know the exact angle of joints.  I use encoders with as high a resolution as possible.  They are rated as "2000 p/r".  Quadrature encoders will have 4x as many quadrature transitions than that, so my encoders have an angular resolution of 1/8000 of a full circle.  With the arm fully extended it has a length of 200+150+100 = 450mm.  The pivot has a resolution of 1/8000 of the full circle (7.85e-4 radians). That means that the XYZ position resolution of the tip of the arm when fully extended is about 450 * 7.84e-4 (rule of thumb that the sine of a small angle equals the angle in radians).  This equals about 0.35mm.  And the inaccuracy propagates down the chain of arm sections and encoders, each amplifying the error of the previous ones.
 
-So, we need to be able to zero the system regrding the exact length of each part of the system, and the exact angular position of them.  I THINK that a bunch of measurements of  standard item could be be used as simultaneous equations to solve for lengths and rotations of each part.  However, when I tried to grapple with that problem, my brain instantly started to fry.  I hope that sommeone out there can solve this conundrum.  I believe that a maybe an 8x8 matrix can be used to solve for starting points (zero positions and lengths).  But it is beyond me to solve it, or even verify that the general mathematical is correct!
+So, we need to be able to zero the system regarding the exact length of each part of the system, and the exact angular position of them.  I THINK that a bunch of measurements of a standard item could be be used in simultaneous equations to solve for lengths and rotations of each part.  However, when I tried to grapple with that problem, my brain instantly started to fry.  I hope that someone out there can solve this conundrum.  I believe that a maybe an 8x8 matrix can be used to solve for starting points (zero positions and lengths).  But it is beyond me to solve it, or even verify that the general mathematical solution is correct!
+
+
+AN ITEM LEFT TO DO:
+Write a PC program (portable to other platforms) to record the ascii XYZ readings coming from the Arduino and save it to a file on the PC.  In addition it should show the point cloud in real-time as the data is being generated so we can be sure tht we have mapped all the required surface of the object.  Java or Python might be reasonable programming languages for an open source programming environment.  I have some experience with Java, and no experience with Python.
+
+
+POST PROCESSING:
+Right now I use an assemblage of freeware to take the point cloud and generate a mesh.  I use Meshlab for this.  But I find this cumbersome to work with in general, so I aso use MeshMixer and Blender to re-scuplt the mesh.  Once we get improved accuracy of the XYZ readings, then there will be much reduced need to massage the mesh!!!
