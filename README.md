@@ -10,9 +10,7 @@ This has the potential to be a really good machine to obtain reasonably accurate
 
 Issues: RIGID PARTS
 
-I have printed larger cross section arm segments.  These are, indeed, much more rigid.  But I found that the resulting arm segment has a curvature.  Oddly, it is concave TOWARD the printer bed.  I am not sure WHY this is occurring, so I have not found a solution.  Narrower cross section parts appear to have little or no curvature.
-
-This project is definitely "In Progess", but it is functional now.  It has about +/-1mm reproducibility with the arm segments in different positions, and with the pointer tip in the same XYZ location.
+I re-designed the shoulder and arm segments to have more stability.  They seem pretty good now.  I am sure there is room for improvement (e.g. cable management), but it seems like a reasonable design now.
 
 Issues: CALIBRATION
 
