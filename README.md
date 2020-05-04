@@ -4,13 +4,15 @@
 
 Development of an accurate, inexpensive DIY CMM arm
 
-This project uses, as much as possible, 3D printed parts.  However, the rigidity of plastic arm sections is sub-optimal, and hollow section aluminum arm segments with 3D printed connectors may be required for good accuracy.  Right now I have about +/-1mm accuracy if I am careful when I take the measurements and avoid twisting any arm segments, and keep the arm angles away from the extremes.
+(The photo above is of the first generation of the arm segments)
+
+This project uses, as much as possible, 3D printed parts.  However, the rigidity of plastic arm sections, and the encoder pivots is sub-optimal, and hollow section aluminum arm segments with 3D printed connectors may be required for good accuracy.  At first, I had about +/-1mm accuracy even with careful measurements, avoiding twisting of any arm segments, and keeping the arm angles away from the extremes.  The newest version of the arm segments appears to have improved accuracy and reproducibility. Now the readings seem to average about 0.22mm variation, and no more than 0.34mm error. 
 
 This has the potential to be a really good machine to obtain reasonably accurate X-Y-Z measurements.  However, real-world issues impede this goal.  If we can solve the following issues, then we have a great device!  I am looking for any input to solve these issues.
 
 Issues: RIGID PARTS
 
-I re-designed the shoulder and arm segments to have more stability.  They seem pretty good now.  I am sure there is room for improvement (e.g. cable management), but it seems like a reasonable design now.
+I re-designed the shoulder and arm segments to have more stability.  They seem pretty good now.  I am sure there is room for improvement (e.g. cable management), but it seems like a reasonable design now.  As stated above, the newest design has reasonable accuracy, and maybe this is not as much of an issue now.
 
 Issues: CALIBRATION
 
@@ -24,9 +26,11 @@ Regarding accuracy: to have good accuracy, you need a good calibration!  There a
 
 So, we need to be able to zero the system regarding the exact length of each part of the system, and the exact angular position of them.  I THINK that a bunch of measurements of a standard item could be be used in simultaneous equations to solve for lengths and rotations of each part.  However, when I tried to grapple with that problem, my brain instantly started to fry.  I hope that someone out there can solve this conundrum.  I believe that a maybe an 8x8 matrix can be used to solve for starting points (zero positions and lengths).  But it is beyond me to solve it, or even verify that the general mathematical solution is correct!
 
+With the new arm section designs, the accuracy seems acceptable with no calibration other than a simple zero-ing the elbow and wrist encoders.  I will investigate if it is feasible/useful to try to calibrate the arm section lengths beyond assuming the precise length is as designed.
+
 
 AN ITEM LEFT TO DO:
-Write a PC program (portable to other platforms) to record the ascii XYZ readings coming from the Arduino and save it to a file on the PC.  In addition it should show the point cloud in real-time as the data is being generated so we can be sure tht we have mapped all the required surface of the object.  Java or Python might be reasonable programming languages for an open source programming environment.  I have some experience with Java, and no experience with Python.
+Write a PC program (portable to other platforms) to record the ascii XYZ readings coming from the Arduino and save it to a file on the PC.  In addition it should show the point cloud in real-time as the data is being generated so we can be sure tht we have mapped all the required surface of the object.  Java or Python might be reasonable programming languages for an open source programming environment.  I have some experience with Java, and no experience with Python.  I have started the project in Jave.  It hsa been a while since I used it, and it is a bit of a learning curve to get off the ground.  I am using the NetBeans IDE for the project.
 
 
 POST PROCESSING:
